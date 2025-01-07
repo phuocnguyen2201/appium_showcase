@@ -1,0 +1,14 @@
+{
+  "name": "js_appium_showcase",
+  "version": "1.0.0",
+  "description": "Showcase for JS",
+  "main": "test.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Bruce Ng",
+  "license": "ISC",
+  "devDependencies": {
+    "webdriverio": "^8.39.1"
+  }
+}
