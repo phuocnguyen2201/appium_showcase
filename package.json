@@ -4,11 +4,17 @@
   "description": "Showcase for JS",
   "main": "test.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha --timeout 60000 test/*.js --reporter mochawesome --exit",
+    "clean": "rm -rf reports logs"
   },
   "author": "Bruce Ng",
   "license": "ISC",
   "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^11.0.1",
     "webdriverio": "^8.39.1"
+  },
+  "dependencies": {
+    "mochawesome": "^7.1.3"
   }
 }
